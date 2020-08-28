@@ -1,4 +1,3 @@
-# Red Hat OpenShift AMQ and Serverless
 Making OpenShift AMQ and Serverless work together; the magic of Kafka and Knative combined!~
 
 
@@ -8,9 +7,8 @@ Making OpenShift AMQ and Serverless work together; the magic of Kafka and Knativ
 3.  Red Hat Serverless Operator Installed
 
 
-## Installing Kafka in OCP
-Basically the RH docs all stink.  But luckily the upstream docs are great.
-https://strimzi.io/quickstarts/
+## Setting Up AMQ in OCP
+These notes are taken from the great [upstream docs](https://strimzi.io/quickstarts/).
 
 1.  oc apply -f https://strimzi.io/examples/latest/kafka/kafka-persistent-single.yaml
 
